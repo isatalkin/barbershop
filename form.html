@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Барбершоп «Бородинский»</title>
+</head>
+
+<body class="page">
+  <header class="page-header">
+    <h1 class="visually-hidden">Барбершоп «Бородинский» - истинно мужская классика</h1>
+    <div class="page-header__logo">
+      <img src="http://placehold.it/226x30" width="226" height="30" alt="Барбершоп «Бородинский»">
+    </div>
+    <nav class="main-nav main-nav--closed main-nav--nojs">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__items">
+          <li class="main-nav__item main-nav__item--active">
+            <a>Главная</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="">Наши работы</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="">Записаться</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="">Контакты</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="">HTML Academy</a>
+          </li>
+        </ul>
+        <ul class="main-nav__user-items">
+          <li class="main-nav__user-item">
+            <a href="" class="main-nav__user-login" href="" title="Войти">Вход</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="inner-page">
+    <header class="inner-page__header">
+      <h2 class="inner-page__heading">Запись на стрижку</h2>
+      <a class="btn inner-page__homepage-link" href="">На главную</a>
+    </header>
+
+    <form class="enroll" action="https://echo.htmlacademy.ru" method="post">
+
+      <fieldset class="enroll__personal-data">
+        <input class="enroll__personal-data-input" type="text" name="first-name" placeholder="Имя">
+
+        <input class="enroll__personal-data-input" type="text" name="last-name" placeholder="Фамилия">
+
+        <input class="enroll__personal-data-input" type="text" name="middle-name" placeholder="Отчество">
+
+        <input class="enroll__personal-data-input" type="tel" name="tel" placeholder="Контактный телефон">
+
+        <input class="enroll__personal-data-input" type="email" name="email" placeholder="Контактный e-mail">
+
+        <textarea class="enroll__personal-data-input" name="comment" placeholder="Доп. информация для мастера"></textarea>
+      </fieldset>
+
+      <fieldset class="enroll__beard-styles">
+        <legend class="enroll__legend">Выберите модель бороды:</legend>
+
+        <input class="enroll__beard-style" type="radio" class="enroll__style" name="beard-style" value="admiral" id="beard-admiral">
+        <label class="enroll__beard-style-label" for="beard-admiral">адмирал
+          <img src="http://placehold.it/30x60" alt="Модель бороды адмирал">
+        </label>
+
+        <input class="enroll__beard-style" type="radio" name="beard-style" value="lumberjack" id="beard-lumberjack">
+        <label class="enroll__beard-style-label" for="beard-lumberjack">лесоруб
+          <img src="http://placehold.it/30x60" alt="Модель бороды лесоруб">
+        </label>
+
+        <input class="enroll__beard-style" type="radio" name="beard-style" value="polar" id="beard-polar">
+        <label class="enroll__beard-style-label" for="beard-polar">полярник
+          <img src="http://placehold.it/30x60" alt="Модель бороды полярник">
+        </label>
+
+        <input class="enroll__beard-style" type="radio" name="beard-style" value="boyar" id="beard-boyar">
+        <label class="enroll__beard-style-label" for="beard-boyar">боярин
+          <img src="http://placehold.it/30x60" alt="Модель бороды боярин">
+        </label>
+
+        <input class="enroll__beard-style" type="radio" name="beard-style" value="sage" id="beard-sage">
+        <label class="enroll__beard-style-label" for="beard-sage">мудрец
+          <img src="http://placehold.it/30x60" alt="Модель бороды мудрец">
+        </label>
+      </fieldset>
+
+      <fieldset class="enroll__options">
+        <legend class="enroll__legend">Дополнительные услуги:</legend>
+
+        <input type="checkbox" class="enroll__option" name="beard-painting" id="beard-painting">
+        <label for="beard-painting" class="enroll__option-label">Покрасить бороду</label>
+
+        <input type="checkbox" class="enroll__option" name="mustaches-winding" id="mustaches-winding">
+        <label for="mustaches-winding" class="enroll__option-label">Накрутить усы</label>
+
+        <input type="checkbox" class="enroll__option" name="beard-comb" id="beard-comb">
+        <label for="beard-comb" class="enroll__option-label">Причесать бороду</label>
+
+        <input type="checkbox" class="enroll__option" name="temples-trim" id="temples-trim">
+        <label for="temples-trim" class="enroll__option-label">Подровнять виски</label>
+
+        <input type="checkbox" class="enroll__option" name="graying-removing" id="graying-removing">
+        <label for="graying-removing" class="enroll__option-label">Убрать седину</label>
+
+        <input type="checkbox" class="enroll__option" name="bald-patch-polishing" id="bald-patch-polishing">
+        <label for="bald-patch-polishing" class="enroll__option-label">Отполировать лысину</label>
+      </fieldset>
+
+      <input class="enroll__submit" type="submit" value="Отправить заявку">
+
+    </form>
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <p class="page-footer__contacts">
+        <b>Барбершоп «Бородинский»</b>
+        <br> г. Санкт-Петербург, ул. Большая Конюшенная 19/8
+        <br>
+        <a href="tel:+78125556666">
+          <span class="page-footer__contacts-hidden">Тел.:</span> +7 (812) 555-66-66</a>
+      </p>
+      <p class="page-footer__social">
+        <span class="social-links">
+          <a class="social-link social-link--vk" href="">Мы в Вконтакте</a>
+          <a class="social-link social-link--vk" href="">Мы в Фейсбуке</a>
+          <a class="social-link social-link--vk" href="">Мы в Инстаграме</a>
+        </span>
+      </p>
+      <p class="page-footer__copyright">
+        Разработано:
+        <a class="page-footer__copyright-link btn" href="">HTML Academy</a>
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
