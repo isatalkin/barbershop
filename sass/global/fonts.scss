@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic');
+
+.page {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.btn {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-nav {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  &__user-items {
+    font-weight: 400;
+    text-transform: none;
+  }
+}
+
+.stats {
+  &__header {
+    color: #000000;
+  }
+  &__slogan {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__intro {
+    font-size: 20px;
+  }
+  &__items {
+    color: #ffffff;
+  }
+  &__value {
+    font-size: 40px;
+    line-height: 18px;
+    font-weight: 700;
+  }
+  &__field {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  &__legend {
+    font-size: 20px;
+    color: #ffffff;
+  }
+}
+
+.advantages {
+  color: #ffffff;
+  &__item-title {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+.news {
+  &__title {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__date {
+    font-size: 16px;
+    line-height: 30px;
+    b {
+      font-size: 30px;
+      line-height: 30px;
+      font-weight: 700;
+    }
+  }
+}
+
+.reviews {
+  &__title {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__author-name {
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+.page-footer {
+  color: #ffffff;
+  &__contacts {
+    b {
+      font-weight: 700;
+    }
+  }
+  a {
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,16 @@
+.advantages {
+  padding-bottom: 10px;
+  &__wrapper {
+    width: 320px;
+    margin: 0 auto;
+  }
+  &__items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  &__item {
+    padding: 170px 45px 30px 45px;
+  }
+}

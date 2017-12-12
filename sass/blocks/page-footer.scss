@@ -1,0 +1,15 @@
+.page-footer {
+  padding-top: 39px;
+  padding-bottom: 23px;
+  background-color: #292929;
+  &__wrapper {
+    width: 320px;
+    margin: 0 auto;
+  }
+  &__contacts {
+    margin-top: 0;
+  }
+  &__copyright {
+    margin-bottom: 0;
+  }
+}
