@@ -1,0 +1,17 @@
+.main-nav {
+  background-color: #826550;
+  &--nojs {
+    .main-nav__toggle {
+      display: none;
+    }
+  }
+  &__items {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  &__user-items {
+    margin: 0;
+    padding-bottom: 20px;
+  }
+}

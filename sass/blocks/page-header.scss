@@ -1,0 +1,13 @@
+.page-header {
+  width: 320px;
+  margin: 0 auto;
+  &__logo {
+    padding-top: 29px;
+    padding-bottom: 26px;
+    background-color: #242424;
+    text-align: center;
+  }
+  img {
+    vertical-align: top;
+  }
+}

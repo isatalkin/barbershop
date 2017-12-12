@@ -1,0 +1,11 @@
+.reviews {
+  padding: 30px 39px 18px 20px;
+  background-color: #ffffff;
+  &__wrapper {
+    width: 320px;
+    margin: 0 auto;
+  }
+  &__title {
+    margin-top: 0;
+  }
+}

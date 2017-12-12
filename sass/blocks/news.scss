@@ -1,0 +1,11 @@
+.news {
+  padding: 37px 20px 28px 20px;
+  background-color: #ffffff;
+  &__wrapper {
+    width: 320px;
+    margin: 0 auto;
+  }
+  &__title {
+    margin-top: 0;
+  }
+}
