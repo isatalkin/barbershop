@@ -1,6 +1,5 @@
 .stats {
-  width: 320px;
-  margin: 0 auto;
+  @include l-mobile-center;
   &__header {
     background-color: #ffffff;
     padding: 30px 38px 30px 38px;

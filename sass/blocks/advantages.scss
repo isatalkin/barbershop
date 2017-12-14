@@ -1,8 +1,7 @@
 .advantages {
   padding-bottom: 10px;
   &__wrapper {
-    width: 320px;
-    margin: 0 auto;
+    @include l-mobile-center;
   }
   &__items {
     list-style: none;

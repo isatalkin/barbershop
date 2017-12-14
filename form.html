@@ -13,20 +13,20 @@
   <header class="page-header">
     <h1 class="visually-hidden">Барбершоп «Бородинский» - истинно мужская классика</h1>
     <div class="page-header__logo">
-      <img src="http://placehold.it/226x30" width="226" height="30" alt="Барбершоп «Бородинский»">
+      <img src="img/page-header__logo.png" width="226" height="30" alt="Барбершоп «Бородинский»">
     </div>
     <nav class="main-nav main-nav--closed main-nav--nojs">
       <button class="main-nav__toggle" type="button">Открыть меню</button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="photo.html">Наши работы</a>
+          </li>
           <li class="main-nav__item main-nav__item--active">
-            <a>Главная</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="">Наши работы</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="">Записаться</a>
+            <a>Записаться</a>
           </li>
           <li class="main-nav__item">
             <a href="">Контакты</a>
@@ -52,7 +52,7 @@
 
     <form class="enroll" action="https://echo.htmlacademy.ru" method="post">
 
-      <fieldset class="enroll__personal-data">
+      <fieldset class="enroll__fieldset enroll__personal-data">
         <input class="enroll__personal-data-input" type="text" name="first-name" placeholder="Имя">
 
         <input class="enroll__personal-data-input" type="text" name="last-name" placeholder="Фамилия">
@@ -66,36 +66,36 @@
         <textarea class="enroll__personal-data-input" name="comment" placeholder="Доп. информация для мастера"></textarea>
       </fieldset>
 
-      <fieldset class="enroll__beard-styles">
+      <fieldset class="enroll__fieldset enroll__beard-styles">
         <legend class="enroll__legend">Выберите модель бороды:</legend>
 
         <input class="enroll__beard-style" type="radio" class="enroll__style" name="beard-style" value="admiral" id="beard-admiral">
         <label class="enroll__beard-style-label" for="beard-admiral">адмирал
-          <img src="http://placehold.it/30x60" alt="Модель бороды адмирал">
+          <img src="img/enroll__admiral.png" width="52" height="49" alt="Модель бороды адмирал">
         </label>
 
         <input class="enroll__beard-style" type="radio" name="beard-style" value="lumberjack" id="beard-lumberjack">
         <label class="enroll__beard-style-label" for="beard-lumberjack">лесоруб
-          <img src="http://placehold.it/30x60" alt="Модель бороды лесоруб">
+          <img src="img/enroll__lumberjack.png" width="58" height="68" alt="Модель бороды лесоруб">
         </label>
 
         <input class="enroll__beard-style" type="radio" name="beard-style" value="polar" id="beard-polar">
         <label class="enroll__beard-style-label" for="beard-polar">полярник
-          <img src="http://placehold.it/30x60" alt="Модель бороды полярник">
+          <img src="img/enroll__polar.png" width="64" height="78" alt="Модель бороды полярник">
         </label>
 
         <input class="enroll__beard-style" type="radio" name="beard-style" value="boyar" id="beard-boyar">
         <label class="enroll__beard-style-label" for="beard-boyar">боярин
-          <img src="http://placehold.it/30x60" alt="Модель бороды боярин">
+          <img src="img/enroll__boyar.png" width="58" height="98" alt="Модель бороды боярин">
         </label>
 
         <input class="enroll__beard-style" type="radio" name="beard-style" value="sage" id="beard-sage">
         <label class="enroll__beard-style-label" for="beard-sage">мудрец
-          <img src="http://placehold.it/30x60" alt="Модель бороды мудрец">
+          <img src="img/enroll__sage.png" width="46" height="105" alt="Модель бороды мудрец">
         </label>
       </fieldset>
 
-      <fieldset class="enroll__options">
+      <fieldset class="enroll__fieldset enroll__options">
         <legend class="enroll__legend">Дополнительные услуги:</legend>
 
         <input type="checkbox" class="enroll__option" name="beard-painting" id="beard-painting">
@@ -117,7 +117,7 @@
         <label for="bald-patch-polishing" class="enroll__option-label">Отполировать лысину</label>
       </fieldset>
 
-      <input class="enroll__submit" type="submit" value="Отправить заявку">
+      <input class="btn enroll__submit" type="submit" value="Отправить заявку">
 
     </form>
   </main>
