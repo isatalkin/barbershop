@@ -1,0 +1,18 @@
+.price {
+  background-color: $bg-content-dark;
+  text-align: center;
+  &__wrapper {
+    @include l-mobile-center;
+    padding: 35px 20px 50px 20px;
+  }
+  &__heading {
+    margin-top: 0;
+  }
+  &__table {
+    width: 100%;
+    text-align: left;
+  }
+  &__cost {
+    text-align: right;
+  }
+}

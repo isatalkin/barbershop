@@ -1,6 +1,5 @@
 .page-header {
-  width: 320px;
-  margin: 0 auto;
+  @include l-mobile-center;
   &__logo {
     padding-top: 29px;
     padding-bottom: 26px;

@@ -1,0 +1,15 @@
+.inner-page {
+  background-color: $bg-content;
+  &__header {
+    @include l-mobile-center;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    text-align: center;
+  }
+  &__heading {
+    margin: 0;
+  }
+  &__homepage-link {
+    display: none;
+  }
+}

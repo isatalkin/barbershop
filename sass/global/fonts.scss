@@ -124,3 +124,59 @@
     text-decoration: none;
   }
 }
+
+.inner-page {
+  &__heading {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.portfolio {
+  &__heading {
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+  }
+  &__service {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+}
+
+.price {
+  color: #ffffff;
+  &__heading {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__happy-hours {
+    font-size: 20px;
+  }
+}
+
+.enroll {
+  &__personal-data-input {
+    line-height: 30px;
+    &::placeholder {
+      opacity: 1;
+    }
+  }
+  &__legend {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  &__beard-style-label {
+    line-height: 24px;
+  }
+  &__option-label {
+    line-height: 30px;
+  }
+  &__submit {
+    color: #ffffff;
+  }
+}

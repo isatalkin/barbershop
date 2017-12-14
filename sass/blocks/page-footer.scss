@@ -2,9 +2,9 @@
   padding-top: 39px;
   padding-bottom: 23px;
   background-color: #292929;
+  text-align: center;
   &__wrapper {
-    width: 320px;
-    margin: 0 auto;
+    @include l-mobile-center;
   }
   &__contacts {
     margin-top: 0;

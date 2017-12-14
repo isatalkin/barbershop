@@ -1,0 +1,19 @@
+.enroll {
+  @include l-mobile-center;
+  padding: 0px 20px 70px 20px;
+  &__fieldset {
+    border: 0;
+  }
+  &__personal-data-input {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+  }
+  &__option {
+    display: block;
+  }
+  &__submit {
+    width: 100%;
+    background-color: #826550;
+  }
+}
