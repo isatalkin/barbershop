@@ -2,7 +2,7 @@
   background-color: $bg-content-dark;
   text-align: center;
   &__wrapper {
-    @include l-mobile-center;
+    @include container;
     padding: 35px 20px 50px 20px;
   }
   &__heading {

@@ -1,5 +1,5 @@
 .portfolio {
-  @include l-mobile-center;
+  @include container;
   padding: 0 20px 65px 20px;
   &__title {
     position: absolute;

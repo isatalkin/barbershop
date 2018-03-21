@@ -1,7 +1,7 @@
 .inner-page {
   background-color: $bg-content;
   &__header {
-    @include l-mobile-center;
+    @include container;
     padding-top: 33px;
     padding-bottom: 33px;
     text-align: center;

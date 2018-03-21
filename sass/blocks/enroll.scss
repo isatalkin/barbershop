@@ -1,5 +1,5 @@
 .enroll {
-  @include l-mobile-center;
+  @include container;
   padding: 0px 20px 70px 20px;
   &__fieldset {
     border: 0;
