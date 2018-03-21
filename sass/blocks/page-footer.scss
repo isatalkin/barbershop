@@ -4,7 +4,7 @@
   background-color: #292929;
   text-align: center;
   &__wrapper {
-    @include l-mobile-center;
+    @include container;
   }
   &__contacts {
     margin-top: 0;

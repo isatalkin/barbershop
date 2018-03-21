@@ -1,6 +1,8 @@
 .page-header {
-  @include l-mobile-center;
+  @include container;
+  min-height: 395px; /* temp */
   &__logo {
+    height: 85px;
     padding-top: 29px;
     padding-bottom: 26px;
     background-color: #242424;
@@ -8,5 +10,28 @@
   }
   img {
     vertical-align: top;
+  }
+}
+
+@media #{$tablet-widths} {
+  .page-header {
+    position: relative;
+    min-height: 70px;
+    padding-bottom: 400px;
+    &__logo {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 400px;
+    }
+  }
+}
+
+@media #{$desktop-widths} {
+  .page-header {
+    padding-bottom: 648px;
+    &__logo {
+      height: 648px;
+    }
   }
 }
