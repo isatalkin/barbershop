@@ -44,13 +44,14 @@
   }
   &__intro {
     font-size: 20px;
+    line-height: 27px;
   }
   &__items {
     color: #ffffff;
   }
   &__value {
     font-size: 40px;
-    line-height: 18px;
+    line-height: 40px;
     font-weight: 700;
   }
   &__field {
@@ -59,6 +60,7 @@
   }
   &__legend {
     font-size: 20px;
+    line-height: 20px;
     color: #ffffff;
   }
 }
