@@ -1,8 +1,9 @@
 .main-nav {
   position: relative;
-  width: 320px;
-  margin: 0 auto;
+
+  width: auto;
   min-height: 50px;
+
   background-color: #826550;
 }
 
@@ -226,8 +227,10 @@
   }
 
   .main-nav__wrapper {
-    @include container;
-    @include clearfix;
+    @include container-fluid;
+
+    display: flex;
+    justify-content: space-between;
   }
 
   .main-nav__toggle {
@@ -235,17 +238,16 @@
   }
 
   .main-nav__items {
-    float: left;
-    width: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
   }
 
   .main-nav__user-items {
-    float: right;
     width: 60px;
   }
 
   .main-nav__item {
-    float: left;
     margin-right: 32px;
 
     &:last-child {
@@ -258,6 +260,7 @@
       &::after {
         content: "";
         position: absolute;
+        z-index: 1;
         right: 0;
         bottom: -3px;
         left: 0;
