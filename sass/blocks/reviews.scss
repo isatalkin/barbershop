@@ -4,7 +4,7 @@
 }
 
 .reviews__wrapper {
-  @include container;
+  @include container-fluid;
 }
 
 .reviews__title {
@@ -16,11 +16,19 @@
 }
 
 .reviews__item {
+  position: relative;
+  margin: 0;
   padding-left: 70px;
 }
 
 .reviews__item:nth-child(n+2) {
   display: none;
+}
+
+.reviews__author-foto {
+  position: absolute;
+  top: 10px;
+  left: 0;
 }
 
 .reviews__prev {
@@ -37,9 +45,20 @@
     padding-top: 45px;
   }
 
+  .reviews__wrapper {
+    position: relative;
+  }
+
   .reviews__title {
     margin-right: 200px;
     margin-bottom: 55px;
+  }
+
+  .reviews__write {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
   .reviews__prev {
